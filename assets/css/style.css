@@ -1,0 +1,1079 @@
+.padding {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.header {
+	width: 114px;
+	height: 41px;
+	font-family: "SF Pro Display";
+	font-size: 34px;
+	font-weight: 700;
+	letter-spacing: 0.82px;
+	line-height: 41px;
+	margin-top: 53px;
+	color: black;
+}
+
+
+
+.header-with-date {
+	width: 114px;
+	height: 41px;
+	font-family: "SF Pro Display";
+	font-size: 34px;
+	font-weight: 700;
+	letter-spacing: 0.82px;
+	line-height: 41px;
+	color: #4c1397;
+}
+
+.header-date {
+	display: block;
+	font-family: "SF Pro Regular";
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-top: 35px;
+}
+
+.header-sm {
+    display: block;
+    width: 100px;
+    height: 27px;
+    color: #000000;
+    font-family: "SF Pro Text";
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 41px;
+    color: #2a45ff;
+    margin-bottom: 15px;
+}
+
+.link-lg {
+	width: 53px;
+	height: 21px;
+	color: #007aff;
+	font-family: "SF Pro Text";
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: -0.41px;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.link-sm {
+	width: 53px;
+	height: 21px;
+	color: #007aff;
+	font-family: "SF Pro Light";
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: -0.41px;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.float-right .link-lg {
+	font-weight: 300;
+	margin-right: 10px;
+	font-family: "SF Pro Light";
+}
+
+.headline {
+	width: 335px;
+	height: 45px;
+	display: inline-block;
+}
+
+.line {
+	background-color: #c8c7cc;
+	color: #c8c7cc;
+	height: 1px;
+	border: #c8c7cc;
+	margin-top: 1px;
+}
+
+.new {
+	width: 63px;
+	height: 13px;
+	color: #007aff;
+	font-family: "SF Pro Text";
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 0.07px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding-top: none;
+	margin-top: none;
+}
+
+.game-title {
+	width: 98px;
+	height: 27px;
+	color: #000000;
+	font-family: "SF Pro Text";
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 0.35px;
+	display: inline-block;
+}
+
+.game-desc {
+	width: 310px;
+	height: 27px;
+	color: #8a8a8f;
+	font-family: "SF Pro Display";
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 0.35px;
+}
+
+.slider-img {
+	border-radius: 10px;
+}
+
+.scroller > .row {
+  	overflow-x: auto;
+  	white-space: nowrap;
+  	flex-wrap: nowrap;
+
+  	-webkit-scrollbar {
+  		display: hidden;
+  	}
+}
+
+.scroller > .row > .col-sm-8 {
+	display: inline-block;
+	float: none;
+}
+
+.row-padding {
+	padding-right: 5px;
+}
+
+.nowrap {
+	white-space: nowrap;
+	flex-wrap: nowrap;
+}
+
+.wrap {
+	white-space: normal;
+	flex-wrap: nowrap;
+}
+
+.app-image {
+	display: inline-block;
+	max-width: 50px;
+	max-height: 50px;
+	border-radius: 15px;
+	margin-right: 10px;
+}
+
+.app-image + .d-inline-block {
+	vertical-align: middle;
+}
+
+.stack {
+	display: block;
+	color: #1236f18a;
+}
+
+.text-sm {
+	width: 149px;
+	height: 16px;
+	color: #6f6f6f;
+	font-family: "SF Pro Regular";
+	font-size: 13px;
+	font-weight: normal;
+	letter-spacing: -0.08px;
+}
+
+.get-btn {
+	background-color: #efeff4;
+	border-radius: 30px;
+	font-weight: 800;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #007aff;
+	margin-top: 8px;
+	padding: .3rem .75rem;
+}
+
+.padding-sm {
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+.padding-5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.padding-10 {
+	padding-top: 10px;
+	/*padding-bottom: 10px;*/
+}
+
+.padding-bottom-10 {
+	padding-bottom: 10px;
+}
+
+.padding-bottom-30 {
+	padding-bottom: 30px;
+}
+
+.padding-left-none {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.padding-bottom-none {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.padding-top-none {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.padding-right-none {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.fill {
+	flex: 1;
+}
+
+.no-bold {
+	font-weight: normal;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.custom-nav {
+	/*box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);*/
+	background-color: rgba(249, 249, 249, 0.9);
+}
+
+.header-sm-custom {
+	width: 40px;
+	height: 22px;
+	color: #007aff;
+	font-family: "SF Pro Light";
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: -0.41px;
+	padding: 5px 0 0;
+}
+
+.app-image-lg {
+	width: 100px;
+	height: 100px;
+	max-width: 118px;
+	max-height: 118px;
+	border-radius: 15%;
+	padding-right: 5px;
+}
+
+.app-detail {
+	color: #8e8e93;
+	color: #353333;
+	font-family: "SF Pro Light";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #4c63f2;
+	letter-spacing: 0.55px;
+}
+
+.get-btn-2 {
+	background-color: #1312d73d;
+	font-weight: normal;
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	font-family: "SF Pro Regular";
+	color: white;
+	margin-left: 15px;
+}
+
+.btn.round{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.btn-group > .btn.round:not(:first-child):not(:last-child), .btn-group > .btn.pill:not(:first-child):not(:last-child){
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.btn-group > .btn.round:first-child, .btn-group > .btn.pill:first-child{
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-group > .btn.round:last-child, .btn-group > .btn.pill:last-child{
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-group .btn + .btn{
+	border-left: 1px solid rgba(0, 0, 0, .1);
+	margin-left:-1px;
+}
+
+.blue {
+	background-color: #007aff;
+	color: white;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.btn-pill {
+  	border-radius: 15px;
+	min-width: 69px;
+	min-height: 29px;
+	display: block;
+}
+
+a:hover,
+a:active,
+a:focus {
+  	box-shadow: none;
+	text-decoration: none;
+}
+
+a.header-sm-custom:hover,
+a.header-sm-custom:active,
+a.header-sm-custom:focus {
+  	color: #006add;
+  	box-shadow: none;
+}
+
+.btn:active,
+.btn:focus,
+.btn.active,
+.btn:active:focus {
+   background-image: none;
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
+
+.overflow-none {
+	overflow-x: hidden;
+}
+
+.gray {
+	font-family: "SF Pro Display";
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #000000;
+	letter-spacing: 0.23px;
+}
+
+.gray img {
+	padding-left: 2px;
+}
+
+.baseline {
+	vertical-align: baseline;
+}
+
+.mini {
+	width: 9px;
+	height: 30px;
+	color: #f1f1f1;
+	font-family: "SF Pro Display";
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 0.15px;
+	/*vertical-align: super;*/
+}
+
+.x-mini {
+	color: #000000;
+	font-family: "SF Pro Thin";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.55px;
+	top: 0;
+}
+
+.max-26 {
+	max-height: 26px;
+	display: block;
+}
+
+.desc {
+	color: #000000;
+	font-family: "SF Pro Light";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0.35px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.developer {
+	font-family: "SF Pro Light";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #ffffff;
+	letter-spacing: 0.48px;
+}
+
+.developer-name {
+	color: #007aff;
+	font-family: "SF Pro Light";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.35px;
+}
+
+.m-0 {
+	margin-top: 0;
+}
+
+.rating-big {
+	color: #ffffff;
+	font-family: "SF Pro Display";
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 33px;
+	letter-spacing: -2.5px;
+}
+
+.rating-card {
+    border-radius: 9px;
+    background-color: #1312d73d;
+    display: block;
+    padding: 15px 10px 20px;
+}
+
+
+.rating-title {
+	color: #000000;
+	font-family: "SF Pro Light";
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0.85px;
+	margin-bottom: 0rem;
+}
+
+.rating-date {
+	font-family: "SF Pro Light";
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #000000;
+	letter-spacing: 0.23px;
+	margin-bottom: 0rem;
+}
+
+.rating-author {
+	color: #8e8e93;
+	color: #353333;
+	font-family: "SF Pro Light";
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #000000;
+	letter-spacing: 0.23px;
+}
+
+.information-seller {
+	color: #2700e8;
+	font-family: "SF Pro Light";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0.75px;
+}
+
+.information-seller-name {
+	color: #000000;
+	font-family: "SF Pro Regular";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.35px;
+}
+
+.modal.fade .modal-dialog {
+  transform: translate3d(0, 100vh, 0);
+}
+
+.modal.in .modal-dialog {
+  transform: translate3d(0, 0, 0);
+}
+
+
+
+/*!
+ * =====================================================
+ * Ratchet v2.0.2 (http://goratchet.com)
+ * Copyright 2014 Connor Sears
+ * Licensed under MIT (https://github.com/twbs/ratchet/blob/master/LICENSE)
+ *
+ * v2.0.2 designed by @connors.
+ * =====================================================
+ */
+
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+.bar {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	height: 44px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #fff;
+	border-bottom: 1px solid #000;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.bar-tab {
+	bottom: 0;
+	display: table;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	table-layout: fixed;
+	border-top: 1px solid #ec2727;
+	border-bottom: 0;
+}
+
+.bar-tab .tab-item {
+	display: table-cell;
+	width: 1%;
+	height: 50px;
+	color: #929292;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none !important;
+}
+
+.bar-tab .tab-item.active,
+.bar-tab .tab-item:active {
+	color: #000000;
+}
+
+.bar-tab .tab-item .icon {
+	top: 3px;
+	width: 24px;
+	height: 24px;
+	padding-top: 0;
+	padding-bottom: 0
+}
+
+.bar-tab .tab-item .icon~.tab-label {
+	display: block;
+	font-size: 11px;
+	text-decoration: none !important;
+}
+
+.bar .icon {
+	position: relative;
+	z-index: 20;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px
+}
+
+@font-face {
+	font-family: Ratchicons;
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/ratchicons.eot);
+	src: url(../fonts/ratchicons.eot?#iefix) format("embedded-opentype"), url(../fonts/ratchicons.woff) format("woff"), url(../fonts/ratchicons.ttf) format("truetype"), url(../fonts/ratchicons.svg#svgFontName) format("svg")
+}
+
+.icon {
+	display: inline-block;
+	font-family: Ratchicons;
+	font-size: 24px;
+	line-height: 1;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased
+}
+
+.icon-gear:before {
+	content: '\e821'
+}
+
+.icon-home:before {
+	content: '\e82b'
+}
+
+.icon-person:before {
+	content: '\e832'
+}
+
+.icon-search:before {
+	content: '\e819'
+}
+
+.icon-star-filled:before {
+	content: '\e81b'
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+
+
+
+.bar-nav ~ .content {
+  padding-top: 44px;
+}
+
+.bar-header-secondary ~ .content {
+  padding-top: 88px;
+}
+
+.bar-footer ~ .content {
+  padding-bottom: 44px;
+}
+
+.bar-footer-secondary ~ .content {
+  padding-bottom: 88px;
+}
+
+.bar-tab ~ .content {
+  padding-bottom: 50px;
+}
+
+.bar-footer-secondary-tab ~ .content {
+  padding-bottom: 94px;
+}
+
+.push-footer {
+	margin: 10px;
+}
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+
+
+nav {
+	display: block
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+body {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 17px;
+	line-height: 21px;
+	color: #000;
+	background-color: #2b00d8
+}
+
+html, body {
+	width: 100%;
+
+ 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background: linear-gradient(119deg, #4714f4, #f40b36, #0b7bf4); 
+background-size: 600% 600%; 
+
+-webkit-animation: Gradient 26s ease infinite; 
+
+-moz-animation: Gradient 26s ease infinite; 
+
+-o-animation: Gradient 26s ease infinite; 
+
+animation: Gradient 26s ease infinite; 
+
+ 
+
+@-webkit-keyframes Gradient { 
+    0%{background-position:34% 0%} 
+    50%{background-position:67% 100%} 
+    100%{background-position:34% 0%} 
+
+} 
+
+@-moz-keyframes Gradient { 
+
+    0%{background-position:34% 0%} 
+    50%{background-position:67% 100%}
+    100%{background-position:34% 0%}
+}
+@-o-keyframes Gradient {
+    0%{background-position:34% 0%} 
+    50%{background-position:67% 100%}
+    100%{background-position:34% 0%}
+}
+@keyframes Gradient { 
+    0%{background-position:34% 0%}
+    50%{background-position:67% 100%}
+    100%{background-position:34% 0%}
+} }
+
+.content {
+	padding-bottom: 51px;
+	margin-bottom: 51px;
+	overflow-x: hidden;
+	/* background: rgb(77,0,129); */
+background: linear-gradient(119deg, #4714f4, #f40b36, #0b7bf4);
+
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 26s ease infinite;
+
+-moz-animation: AnimationName 26s ease infinite;
+
+-o-animation: AnimationName 26s ease infinite;
+
+animation: AnimationName 26s ease infinite;
+
+@-webkit-keyframes AnimationName {
+
+0%{background-position:34% 0%}
+
+50%{background-position:67% 100%}
+
+100%{background-position:34% 0%}
+
+}
+
+@-moz-keyframes AnimationName {
+
+0%{background-position:34% 0%}
+
+50%{background-position:67% 100%}
+
+100%{background-position:34% 0%}
+
+}
+
+@-o-keyframes AnimationName {
+
+0%{background-position:34% 0%}
+
+50%{background-position:67% 100%}
+
+100%{background-position:34% 0%}
+
+}
+
+@keyframes AnimationName {
+
+0%{background-position:34% 0%}
+
+50%{background-position:67% 100%}
+
+100%{background-position:34% 0%}
+
+}
+}
+
+.no-padding {
+	padding: 0;
+	margin: 0;
+}
+
+.active {
+	color: #007aff;
+	font-family: "SF Pro Light";
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: 0.12px;
+}
+
+.bar {
+background: linear-gradient(119deg, #4714f4, #f40b36, #0b7bf4);
+
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 26s ease infinite;
+
+-moz-animation: AnimationName 26s ease infinite;
+
+-o-animation: AnimationName 26s ease infinite;
+
+animation: AnimationName 26s ease infinite;
+
+@-webkit-keyframes AnimationName {
+
+0%{background-position:34% 0%}
+
+50%{background-position:67% 100%}
+
+100%{background-position:34% 0%}
+
+}
+
+@-moz-keyframes AnimationName {
+
+0%{background-position:34% 0%}
+
+50%{background-position:67% 100%}
+
+100%{background-position:34% 0%}
+
+}
+
+@-o-keyframes AnimationName {
+
+0%{background-position:34% 0%}
+
+50%{background-position:67% 100%}
+
+100%{background-position:34% 0%}
+
+}
+
+@keyframes AnimationName {
+
+0%{background-position:34% 0%}
+
+50%{background-position:67% 100%}
+
+100%{background-position:34% 0%}
+
+}
+}
+
+.today-image {
+	border-radius: 15px;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 300px;
+	position: relative;
+	display: block;
+}
+
+.today-header-1 {
+    position: absolute;
+    top: 0;
+	/*width: 100%;*/
+	opacity: 0.9;
+	color: #58595e;
+	font-family: "SF Pro Light";
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: 0.95px;
+	display: block;
+}
+
+.today-header-2 {
+    position: absolute;
+    top: 25px;
+    color: #ff0000;
+    font-family: "SF Pro Light";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.45px;
+    display: block;
+}
+
+.today-description {
+	position: absolute;
+	display: block;
+	color: #353333;
+	font-family: "SF Pro Light";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.27px;
+	bottom: 0;
+}
+
+.search-box {
+	background-color: #eaebed;
+	border-radius: 10px;
+	border: 3px solid;
+	border-color: #eaebed;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+	width: 100%;
+	font-color: #8a8a8f;
+	font-family: "SF Pro Light";
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: -0.41px;
+	text-indent: 21px;
+	position: relative;
+    background-image: url(../img/search-icon.png);
+    background-position: 5px 4px;
+    background-repeat: no-repeat;
+	padding: 2px 0 1px 5px;
+}
+
+.search-heading .header {
+	opacity: 1;
+	transition: margin-top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.search-heading.force-focus-within .header,
+.search-heading:focus-within .header {
+	margin-top: -20px;
+	opacity: 0;
+}
+
+.search-heading .search-box {
+	outline: 0 none !important;
+}
+
+.search-results {
+	padding: 20px 15px 40px;
+	margin-top: 50px;
+	opacity: 0;
+	pointer-events: none;
+	transition: margin-top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.search-heading.force-focus-within + .search-results {
+	margin-top: 0;
+	opacity: 1;
+	pointer-events: all;
+}
+
+.search-results .justify-content-between {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 0 auto 6px;
+}
+
+.categories-list .category {
+	padding: 3px 3px 7px;
+}
+
+.categories-list .category .fa,
+.categories-list .category .fab {
+	display: block;
+	width: 20px;
+	color: #4f61ee;
+	margin-top: 2px;
+	margin-right: 15px;
+}
+
+.categories-list .category a {
+	display: block;
+	color: #4d63f2;
+	margin-bottom: 5px;
+}
+
+.categories-list .category .col-1 {
+	min-width: 20px;
+	max-width: 20px;
+	width: 20px;
+}
+
+.categories-list .category .col-xs-6.col-lg-2 {
+	min-width: -webkit-calc(100% - 35px);
+	min-width: calc(100% - 35px);
+	max-width: -webkit-calc(100% - 35px);
+	max-width: calc(100% - 35px);
+	width: calc(100% - 35px);
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.app-of-the-day {
+	border-radius: 15px;
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.app-of-the-day .today-image {
+	height: -webkit-calc(100% - 90px);
+	height: calc(100% - 90px);
+	min-height: -webkit-calc(100% - 90px);
+	min-height: calc(100% - 90px);
+	max-height: -webkit-calc(100% - 90px);
+	max-height: calc(100% - 90px);
+	margin-bottom: 50px;
+	border-radius: 15px 15px 0 0;
+}
+
+.app-of-the-day div .row {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	margin-top: -50px;
+	margin-left: 0;
+	padding: 10px;
+	border-radius: 0 0 15px 15px;
+	background: rgb(77,0,129);
+	background: -moz-linear-gradient(90deg, rgba(77,0,129,1) 0%, rgba(69,103,252,1) 100%) !important;
+	background: -webkit-linear-gradient(90deg, rgba(77,0,129,1) 0%, rgba(69,103,252,1) 100%);
+	background: linear-gradient(90deg, rgba(77,0,129,1) 0%, rgba(69,103,252,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d0081",endColorstr="#4567fc",GradientType=1);
+}
+
+.changelog {
+	display: block;
+	margin: 10px 0 10px;
+	padding: 0 10px 7px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
